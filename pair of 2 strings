@@ -1,0 +1,10 @@
+s1="abcgh"
+s2="def"
+i=0
+res=""
+while i<len(s1) and i<len(s2):
+    res+=s1[i]+s2[i]
+    i+=1
+res+=s1[i: ].upper()
+res+=s2[i: ].upper()
+print(res)
