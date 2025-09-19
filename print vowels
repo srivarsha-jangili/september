@@ -1,0 +1,7 @@
+s="abcdef"
+res=""
+for i in s:
+    if i in "aeiouAEIOU":
+        res+=i
+print(res)
+    
